@@ -1,2 +1,3 @@
 # SEM-image-to-Ubermag-Simulation_Nanochains_GitHub
 This script is composed of two parts. In the first part it imports an image and fits ellipses on particles. These ellipses are then converted to ellipsoids by assuming that the unknown depth parameter is the same as one of the known ellipse axes. Then a Panda list of the objects is made which is used afterward. In the second part, the objects are imported into a micromagnetic script based on Ubermag and the magnetic simiulations are performed. 
+An example of the usage of this code is presented in: Sedrpooshan, Mehran, et al. "Direct device integration of single 1D nanoparticle assemblies; a magnetization reversal and magnetotransport study." Nanotechnology 36.18 (2025): 185601.
